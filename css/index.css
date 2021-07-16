@@ -1359,7 +1359,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://img.muyu.mobi/2021/07/13/e520f6fb414ca.jpg);
+  background: url(https://i.loli.net/2021/07/16/ora3T6QwJjA8eL2.jpg);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -3305,6 +3305,34 @@ blockquote footer cite:before {
 }
 #post-comment .comment-wrap > div:nth-child(2) {
   display: none;
+}
+#site-name:hover:before {
+  position: fixed;
+  width: fit-content;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 10%;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 100;
+  content: attr(data-title);
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+  background-color: rgba(73,177,245,0.9);
+}
+[data-theme=dark] a#site-name:hover:before {
+  background-color: rgba(18,18,18,0.8);
+}
+@media screen and (max-width: 768px) {
+  a#site-name {
+    -webkit-line-clamp: 1;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 }
 #footer {
   position: relative;
