@@ -3362,18 +3362,21 @@ li.categoryBar-list-item:nth-child(9) {
   background: url('http://cleever-chen.com/API/index.php');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: '留下痕迹并分享' !important;
+  content: '写给朋友' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: '关于身边发生的事' !important;
-}
-li.categoryBar-list-item:nth-child(3)>span::after {
   content: '学习笔记' !important;
 }
-li.categoryBar-list-item:nth-child(4)>span::after {
+li.categoryBar-list-item:nth-child(3)>span::after {
   content: '算是随笔' !important;
 }
+li.categoryBar-list-item:nth-child(4)>span::after {
+  content: '留下痕迹并分享' !important;
+}
 li.categoryBar-list-item:nth-child(5)>span::after {
+  content: '关于身边发生的事' !important;
+}
+li.categoryBar-list-item:nth-child(6)>span::after {
   content: '稍作休息' !important;
 }
 li.categoryBar-list-item {
