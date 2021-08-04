@@ -3331,32 +3331,41 @@ span.categoryBar-list-count::after {
   right: -100%;
 }
 li.categoryBar-list-item:nth-child(1) {
-  background: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover1.webp');
+  background: url('https://fp1.fghrsh.net/2021/07/16/a6c438da248542a061681c8e2f203e30.jpg');
 }
 li.categoryBar-list-item:nth-child(2) {
-  background: #abcdef;
+  background: url('https://bu.dusays.com/2021/08/04/444cb98967e93.jpg');
 }
 li.categoryBar-list-item:nth-child(3) {
-  background: rgba(45,67,89,0.7);
+  background: url('https://bu.dusays.com/2021/08/04/6431ec60b939c.png');
 }
 li.categoryBar-list-item:nth-child(4) {
+  background: url('https://fp1.fghrsh.net/2021/07/16/f4301a95c8cc85f683c26f10a52b165f.jpg');
+}
+li.categoryBar-list-item:nth-child(5) {
+  background: #abcdef;
+}
+li.categoryBar-list-item:nth-child(6) {
+  background: rgba(45,67,89,0.7);
+}
+li.categoryBar-list-item:nth-child(7) {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
   background: -moz-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
   background: -o-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
   background: -ms-linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
   background: linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%);
 }
-li.categoryBar-list-item:nth-child(5) {
-  background: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover5.webp');
+li.categoryBar-list-item:nth-child(8) {
+  background: url('http://cleever-chen.com/API/index.php');
 }
-li.categoryBar-list-item:nth-child(6) {
-  background: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover6.webp');
+li.categoryBar-list-item:nth-child(9) {
+  background: url('http://cleever-chen.com/API/index.php');
 }
 li.categoryBar-list-item:nth-child(1)>span::after {
-  content: '关于身边发生的事' !important;
+  content: '留下痕迹并分享' !important;
 }
 li.categoryBar-list-item:nth-child(2)>span::after {
-  content: '为尝试留下痕迹' !important;
+  content: '关于身边发生的事' !important;
 }
 li.categoryBar-list-item:nth-child(3)>span::after {
   content: '学习笔记' !important;
@@ -3365,9 +3374,6 @@ li.categoryBar-list-item:nth-child(4)>span::after {
   content: '算是随笔' !important;
 }
 li.categoryBar-list-item:nth-child(5)>span::after {
-  content: '写给好友' !important;
-}
-li.categoryBar-list-item:nth-child(6)>span::after {
   content: '稍作休息' !important;
 }
 li.categoryBar-list-item {
