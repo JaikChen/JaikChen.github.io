@@ -57,8 +57,6 @@
     
     <category term="念念碎" scheme="http://example.com/categories/%E5%BF%B5%E5%BF%B5%E7%A2%8E/"/>
     
-    <category term="书信" scheme="http://example.com/categories/%E5%BF%B5%E5%BF%B5%E7%A2%8E/%E4%B9%A6%E4%BF%A1/"/>
-    
     
     <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
@@ -244,6 +242,33 @@
   </entry>
   
   <entry>
+    <title>快速搭建自己的博客</title>
+    <link href="http://example.com/2020/10/10/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2020/10/10/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-10-10T02:54:00.000Z</published>
+    <updated>2020-10-10T02:53:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="了解Gridea"><a href="#了解Gridea" class="headerlink" title="了解Gridea"></a>了解Gridea</h5><p>第一次搭博客的时候，还是个纯小白，主流的<a href="https://jaikchen.github.io/">hexo</a>根本整不明白，偶然听说了<a href="https://gridea.dev/">Gridea</a>才搭建好了自己博客1.0版本,虽然使用的时候还是有一些不大不小的缺点，但Gridea 提供了将博客部署到 GitHub Pages、Coding Pages 和通过 SFTP 的方式上传到自己的服务器的功能确实很适合新人上手搭建属于自己的秘密基地。</p><p>Gridea 里文章编辑器已经有了一些基本样式，点击侧边的按钮便可以添加，很方便初学者使用。不过啊，都打算写博客了，确定不学一下 Markdown？</p><p>如上文所说，Gridea 是一个简单开源的静态博客写作客户端，写这段文字的时候，它已具备了博客所需的基本功能。简单的操作，开放的源代码，让Gridea保存活力，静态博客也节省了博客开支，毕竟服务器是要钱的。</p><h4 id="关于安装"><a href="#关于安装" class="headerlink" title="关于安装"></a>关于安装</h4><p><a href="https://gridea.dev/">Gridea官网下载</a>对应平台的安装程序按照个人的安装习惯安装即可。还需要一个稍微流畅的网络，当然会科学上网最好，不知道怎么科学上网就算了，一悲不会告诉你的。</p><h4 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h4><p><strong>创建 GitHub 账号，并创建一个仓库 Token</strong></p><p>第一步还用说，当然是<a href="https://github.com/">注册GitHub</a>（友情提示，名字最好不要乱起，后面会用到的）。登录 GitHub 之后，<a href="https://github.com/settings/tokens/new">创建一个新的token</a>，命名什么的，自己来就好勾选上 repo 的相关权限即可（为什么不勾其他的？想了解？请看官方文档）。生成之后记得把 Token 复制到你的本地，创建个文本或者怎么样保留都行，因为一旦关闭网页就再也看不到它了。</p><p><img src="https://fp1.fghrsh.net/2021/06/12/ec7f529b3a6fcc0ee8a4c63af147bba5.png"></p><p><img src="https://gridea.dev/post-images/1575874322709.png" alt="img"></p><p><strong>创建仓库，存放网址的文件</strong></p><p>创建一个公开仓库，名为 username.github.io。不会真有小笨蛋叫username吧？这里是你的用户名。</p><p><img src="https://fp1.fghrsh.net/2021/06/12/811c29e3750c6d2eead3cdd0c7257ff1.png"></p><p><strong>进入 Gridea 开始进行远程设置</strong></p><p>按照下图进行设置，当然别照抄啊，都是抄作业过来的，注意点。然后点击「检测远程链接」，进行配置检查。远程连接成功后会有提示，之后就可以预览或者同步了（同步的话要等上一段时间，不太久一般）以后访问的默认地址就是你填写的域名</p><p><img src="https://fp1.fghrsh.net/2021/06/12/303f3492c368eabe0ab47dea0219182b.png"></p><h4 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h4><p>很好，成功水了一篇博客。当然也是记录一下自己瞎胡搞的历程，其实之前还有一些好玩的，都以为没有记录慢慢忘了，害。</p><p>对了，欢迎来交换友链，如果想更换域名的话，可以去买一个域名备案一下。至于美化什么的，各有爱好，大胆尝试呗。</p>]]></content>
+    
+    
+    <summary type="html">使用Gridea+Github搭建比较简单个人博客</summary>
+    
+    
+    
+    <category term="记录" scheme="http://example.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Gradea" scheme="http://example.com/tags/Gradea/"/>
+    
+    <category term="记录" scheme="http://example.com/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="Github" scheme="http://example.com/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
     <title>致可爱的阿浣同学</title>
     <link href="http://example.com/2020/09/26/%E8%87%B4%E5%8F%AF%E7%88%B1%E7%9A%84%E9%98%BF%E6%B5%A3%E5%90%8C%E5%AD%A6/"/>
     <id>http://example.com/2020/09/26/%E8%87%B4%E5%8F%AF%E7%88%B1%E7%9A%84%E9%98%BF%E6%B5%A3%E5%90%8C%E5%AD%A6/</id>
@@ -265,33 +290,6 @@
     <category term="书信" scheme="http://example.com/tags/%E4%B9%A6%E4%BF%A1/"/>
     
     <category term="致阿浣" scheme="http://example.com/tags/%E8%87%B4%E9%98%BF%E6%B5%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>快速搭建自己的博客</title>
-    <link href="http://example.com/2019/10/10/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://example.com/2019/10/10/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</id>
-    <published>2019-10-10T02:54:00.000Z</published>
-    <updated>2019-10-10T02:53:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h5 id="了解Gridea"><a href="#了解Gridea" class="headerlink" title="了解Gridea"></a>了解Gridea</h5><p>第一次搭博客的时候，还是个纯小白，主流的<a href="https://jaikchen.github.io/">hexo</a>根本整不明白，偶然听说了<a href="https://gridea.dev/">Gridea</a>才搭建好了自己博客1.0版本,虽然使用的时候还是有一些不大不小的缺点，但Gridea 提供了将博客部署到 GitHub Pages、Coding Pages 和通过 SFTP 的方式上传到自己的服务器的功能确实很适合新人上手搭建属于自己的秘密基地。</p><p>Gridea 里文章编辑器已经有了一些基本样式，点击侧边的按钮便可以添加，很方便初学者使用。不过啊，都打算写博客了，确定不学一下 Markdown？</p><p>如上文所说，Gridea 是一个简单开源的静态博客写作客户端，写这段文字的时候，它已具备了博客所需的基本功能。简单的操作，开放的源代码，让Gridea保存活力，静态博客也节省了博客开支，毕竟服务器是要钱的。</p><h4 id="关于安装"><a href="#关于安装" class="headerlink" title="关于安装"></a>关于安装</h4><p><a href="https://gridea.dev/">Gridea官网下载</a>对应平台的安装程序按照个人的安装习惯安装即可。还需要一个稍微流畅的网络，当然会科学上网最好，不知道怎么科学上网就算了，一悲不会告诉你的。</p><h4 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h4><p><strong>创建 GitHub 账号，并创建一个仓库 Token</strong></p><p>第一步还用说，当然是<a href="https://github.com/">注册GitHub</a>（友情提示，名字最好不要乱起，后面会用到的）。登录 GitHub 之后，<a href="https://github.com/settings/tokens/new">创建一个新的token</a>，命名什么的，自己来就好勾选上 repo 的相关权限即可（为什么不勾其他的？想了解？请看官方文档）。生成之后记得把 Token 复制到你的本地，创建个文本或者怎么样保留都行，因为一旦关闭网页就再也看不到它了。</p><p><img src="https://fp1.fghrsh.net/2021/06/12/ec7f529b3a6fcc0ee8a4c63af147bba5.png"></p><p><img src="https://gridea.dev/post-images/1575874322709.png" alt="img"></p><p><strong>创建仓库，存放网址的文件</strong></p><p>创建一个公开仓库，名为 username.github.io。不会真有小笨蛋叫username吧？这里是你的用户名。</p><p><img src="https://fp1.fghrsh.net/2021/06/12/811c29e3750c6d2eead3cdd0c7257ff1.png"></p><p><strong>进入 Gridea 开始进行远程设置</strong></p><p>按照下图进行设置，当然别照抄啊，都是抄作业过来的，注意点。然后点击「检测远程链接」，进行配置检查。远程连接成功后会有提示，之后就可以预览或者同步了（同步的话要等上一段时间，不太久一般）以后访问的默认地址就是你填写的域名</p><p><img src="https://fp1.fghrsh.net/2021/06/12/303f3492c368eabe0ab47dea0219182b.png"></p><h4 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h4><p>很好，成功水了一篇博客。当然也是记录一下自己瞎胡搞的历程，其实之前还有一些好玩的，都以为没有记录慢慢忘了，害。</p><p>对了，欢迎来交换友链，如果想更换域名的话，可以去买一个域名备案一下。至于美化什么的，各有爱好，大胆尝试呗。</p>]]></content>
-    
-    
-    <summary type="html">使用Gridea+Github搭建比较简单个人博客</summary>
-    
-    
-    
-    <category term="记录" scheme="http://example.com/categories/%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Gradea" scheme="http://example.com/tags/Gradea/"/>
-    
-    <category term="记录" scheme="http://example.com/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="Github" scheme="http://example.com/tags/Github/"/>
     
   </entry>
   
