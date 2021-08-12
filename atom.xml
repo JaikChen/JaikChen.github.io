@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-08-01T14:23:02.000Z</updated>
+  <updated>2021-08-12T14:07:00.000Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客封面水波效果</title>
+    <link href="http://example.com/2021/08/12/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2%E6%B0%B4%E6%B3%A2%E6%95%88%E6%9E%9C/"/>
+    <id>http://example.com/2021/08/12/%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2%E6%B0%B4%E6%B3%A2%E6%95%88%E6%9E%9C/</id>
+    <published>2021-08-12T14:07:00.000Z</published>
+    <updated>2021-08-12T14:07:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul><li>　预期效果图如下</li></ul><p><img src="https://cdn.jsdelivr.net/gh/jaikchen/JaikImage/shuibo.png" alt=""></p><h2 id="动手操作"><a href="#动手操作" class="headerlink" title="动手操作"></a>动手操作</h2><ul><li>　在themes\butterfly\source\js目录下创建一个ripples.js文件，并将如下代码写入该文件：</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">$(document).ready(function () &#123;</span><br><span class="line">  try &#123;</span><br><span class="line">    $(&quot;#page-header&quot;).ripples(&#123;</span><br><span class="line">      resolution: 512,</span><br><span class="line">      dropRadius: 10, //px</span><br><span class="line">      perturbance: 0.04,</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125; catch (e) &#123;</span><br><span class="line">    $(&quot;.error&quot;).show().text(e);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><ul><li>　找到主题配置文件_config.butterfly.yml，在inject的bottom处引入以下文件:</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">inject:</span><br><span class="line">  head:</span><br><span class="line">  bottom:</span><br><span class="line">    - &lt;script defer src=&quot;https://rmt.dogedoge.com/fetch/~/source/jsdelivr/npm/jquery@latest/dist/jquery.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">    - &lt;script defer src=&quot;https://cdn.jsdelivr.net/gh/sirxemic/jquery.ripples/dist/jquery.ripples.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">    - &lt;script defer src=&quot;/js/ripples.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><ul><li>　然后ｈｅｘｏ一键三连</li></ul>]]></content>
+    
+    
+    <summary type="html">butterfly主题魔改记录</summary>
+    
+    
+    
+    <category term="记录" scheme="http://example.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="魔改" scheme="http://example.com/tags/%E9%AD%94%E6%94%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>八月</title>
