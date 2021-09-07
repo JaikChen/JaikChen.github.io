@@ -228,20 +228,6 @@
   </url>
   
   <url>
-    <loc>http://jaik.top/tags/%E7%94%9F%E6%97%A5/</loc>
-    <lastmod>2021-09-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jaik.top/tags/%E5%B0%8F%E5%A7%91%E5%A8%98/</loc>
-    <lastmod>2021-09-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jaik.top/tags/Gradea/</loc>
     <lastmod>2021-09-07</lastmod>
     <changefreq>daily</changefreq>
@@ -257,6 +243,20 @@
   
   <url>
     <loc>http://jaik.top/tags/Github/</loc>
+    <lastmod>2021-09-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jaik.top/tags/%E7%94%9F%E6%97%A5/</loc>
+    <lastmod>2021-09-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jaik.top/tags/%E5%B0%8F%E5%A7%91%E5%A8%98/</loc>
     <lastmod>2021-09-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
