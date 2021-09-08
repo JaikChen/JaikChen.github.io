@@ -144,48 +144,6 @@
 
   
   <url>
-    <loc>http://jaik.top/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-09-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jaik.top/tags/%E5%A4%8F%E5%A4%A9/</loc>
-    <lastmod>2021-09-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jaik.top/tags/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2021-09-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jaik.top/tags/%E4%B9%A6%E4%BF%A1/</loc>
-    <lastmod>2021-09-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jaik.top/tags/%E9%A3%9E%E6%9C%BA%E5%BB%B6%E8%AF%AF/</loc>
-    <lastmod>2021-09-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jaik.top/tags/%E8%87%B4%E9%98%BF%E6%B5%A3/</loc>
-    <lastmod>2021-09-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jaik.top/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-09-08</lastmod>
     <changefreq>daily</changefreq>
@@ -214,6 +172,34 @@
   </url>
   
   <url>
+    <loc>http://jaik.top/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2021-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jaik.top/tags/%E4%B9%A6%E4%BF%A1/</loc>
+    <lastmod>2021-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jaik.top/tags/%E9%A3%9E%E6%9C%BA%E5%BB%B6%E8%AF%AF/</loc>
+    <lastmod>2021-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jaik.top/tags/%E8%87%B4%E9%98%BF%E6%B5%A3/</loc>
+    <lastmod>2021-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jaik.top/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2021-09-08</lastmod>
     <changefreq>daily</changefreq>
@@ -222,6 +208,20 @@
   
   <url>
     <loc>http://jaik.top/tags/%E9%AD%94%E6%94%B9/</loc>
+    <lastmod>2021-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jaik.top/tags/%E5%A4%8F%E5%A4%A9/</loc>
+    <lastmod>2021-09-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jaik.top/tags/%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2021-09-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -293,7 +293,7 @@
 
   
   <url>
-    <loc>http://jaik.top/categories/%E5%BF%B5%E5%BF%B5%E7%A2%8E/</loc>
+    <loc>http://jaik.top/categories/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2021-09-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -307,7 +307,7 @@
   </url>
   
   <url>
-    <loc>http://jaik.top/categories/%E8%AE%B0%E5%BD%95/</loc>
+    <loc>http://jaik.top/categories/%E5%BF%B5%E5%BF%B5%E7%A2%8E/</loc>
     <lastmod>2021-09-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
