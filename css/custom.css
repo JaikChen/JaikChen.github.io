@@ -1,0 +1,347 @@
+@import "//at.alicdn.com/t/font_2740372_ne54th8h3jq.css";
+
+
+svg.icon {
+  width: 1em; height: 1em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+
+/*标题栏*/
+#page-header.nav-visible #nav {
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(50px);
+}
+
+/*搜索框美化*/
+.search-dialog {
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 0px;
+}
+
+#search-mask {
+  background: rgba(255,255,255,0);
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(73, 177, 245, 0.2);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #49b1f5;
+  background-image: -webkit-linear-gradient(
+          45deg,
+          rgba(255, 255, 255, 0.4) 25%,
+          transparent 25%,
+          transparent 50%,
+          rgba(255, 255, 255, 0.4) 50%,
+          rgba(255, 255, 255, 0.4) 75%,
+          transparent 75%,
+          transparent
+  );
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #49b1f5;
+}
+/* 页脚透明 */
+#footer {
+  background: rgba(255,255,255,.15);
+  color: #000;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  backdrop-filter: saturate(100%) blur(5px)
+}
+
+#footer::before {
+  background: rgba(255,255,255,.15)
+}
+
+#footer #footer-wrap {
+  color: var(--font-color)
+}
+
+#footer #footer-wrap a {
+  color: var(--font-color)
+}
+
+/* 文章页背景 */
+.layout_post>#post {
+  /* 以下代表透明度为0.7 可以自行修改*/
+  background: rgba(255,255,255,.7);
+}
+
+/* 所有页面背景 */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+  /* 以下代表透明度为0.7 */
+  background: rgba(255,255,255,.7);
+}
+/*侧边卡片的透明度 */
+:root {
+--card-bg: rgba(255, 255, 255, .7);
+}
+/* 页脚透明 */
+#footer {
+/* 以下代表透明度为0.7 */
+background: rgba(255,255,255, .0);
+}
+
+/* 我的装备 */
+.equipment-item-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 -8px;
+}
+
+.equipment-item-content-item {
+  width: calc(25% - 12px);
+  border-radius: 12px;
+  border: var(--style-border-always);
+  overflow: hidden;
+  margin: 8px 6px;
+  background: var(--heo-card-bg);
+  box-shadow: var(--heo-shadow-border);
+  min-height: 400px;
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .equipment-item-content-item {
+    width: calc(50% - 12px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .equipment-item-content-item {
+    width: 100%;
+  }
+}
+
+.equipment-item-content-item-info {
+  padding: 8px 16px 16px 16px;
+  margin-top: 12px;
+}
+
+.equipment-item-content-item-name {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: fit-content;
+}
+
+.equipment-item-content-item-specification {
+  font-size: 12px;
+  color: var(--heo-secondtext);
+  line-height: 1;
+  margin-bottom: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.equipment-item-content-item-description {
+  line-height: 20px;
+  color: var(--heo-secondtext);
+  height: 60px;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+}
+
+a.equipment-item-content-item-link {
+  font-size: 12px;
+  background: var(--heo-gray-op);
+  padding: 4px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+a.equipment-item-content-item-link:hover {
+  background: var(--heo-main);
+  color: var(--heo-white);
+}
+
+h2.equipment-item-title {
+  line-height: 1;
+}
+
+.equipment-item-description {
+  line-height: 1;
+  margin: 4px 0 8px 0;
+  color: var(--heo-secondtext);
+}
+
+.equipment-item-content-item-cover {
+  width: 100%;
+  height: 200px;
+  background: var(--heo-secondbg);
+  display: flex;
+  justify-content: center;
+}
+
+img.equipment-item-content-item-image {
+  object-fit: cover;
+  height: 100%;
+}
+
+div#equipment {
+  margin-top: 26px;
+}
+
+.equipment-item-content-item-toolbar {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  width: 100%;
+  padding: 0 16px;
+}
+
+a.bber-reply {
+  cursor: pointer;
+}
+
+/* 我的好物样式 */
+
+#icat-equipment > h2 {
+  margin: 20px 7px 0;
+}
+#icat-equipment .equipment-desc {
+  margin: 0 7px;
+  color: var(--icat-secondtext);
+}
+#icat-equipment {
+  padding-bottom: 12px;
+}
+#icat-equipment .equipment {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0 0;
+  gap: 16px;
+}
+/* 初始化 */
+
+#icat-equipment .equipment > .icat-equipment-box {
+  border: 1px solid var(--icat-secondbg);
+  background: var(--icat-card-bg);
+  width: calc(100% / 4 - 12px);
+  border-radius: 12px;
+  overflow: hidden;
+}
+#icat-equipment .equipment .icat-equipment-box img {
+  min-width: 100%;
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  animation:fadeIn 1s;
+  cursor:pointer;
+  transition:all .4s ease-in-out;
+}
+#icat-equipment .equipment .icat-equipment-box img:hover {
+	transform:scale(1.03);
+}
+#icat-equipment .equipment .icat-equipment-box .icat-equipment-content {
+  padding: 16px;
+}
+#icat-equipment .equipment .icat-equipment-box .icat-equipment-content .icat-equipment-name {
+  color: var(--icat-fontcolor);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#icat-equipment .equipment .icat-equipment-box .icat-equipment-content .icat-equipment-custom {
+  font-size: 12px;
+  color: var(--icat-secondtext);
+  line-height: 1;
+  margin-bottom: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#icat-equipment .equipment .icat-equipment-box .icat-equipment-content .icat-equipment-opinion {
+  line-height: 20px;
+  color: var(--icat-secondtext);
+  height: 60px;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-bottom: 16px;
+}
+#icat-equipment .equipment .icat-equipment-box .icat-equipment-content .icat-equipment-box-more {
+  display: flex;
+  justify-content: space-between;
+}
+
+#icat-equipment .equipment .icat-equipment-box .icat-equipment-content .icat-equipment-box-more a {
+  font-size: 12px;
+  background: var(--icat-gray-op);
+  color: var(--icat-fontcolor);
+  padding: 4px 12px;
+  border-radius: 6px;
+  letter-spacing: 1px;
+}
+#icat-equipment .equipment .icat-equipment-box .icat-equipment-content .icat-equipment-box-more a:hover {
+  color: var(--icat-white);
+  background: var(--icat-blue);
+  box-shadow: 0 8px 16px -4px var(--icat-black-op);
+}
+/* 好物页基础样式 */
+
+@media screen and (max-width: 900px) {
+  #icat-equipment .equipment {
+    gap: 10px;
+  }
+  #icat-equipment .equipment > .icat-equipment-box {
+    width: calc(100% / 3 - 7px);
+  }
+}
+@media screen and (max-width: 768px) {
+  #icat-equipment .equipment {
+    gap: 8px;
+  }
+  #icat-equipment .equipment > .icat-equipment-box {
+    width: 100%;
+  }
+  #icat-equipment .equipment .icat-equipment-box img {
+    height: 220px;
+  }
+}
+/* 响应式 */
+
+
